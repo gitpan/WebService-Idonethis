@@ -12,7 +12,6 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "WebScraping pseudo-API for iDoneThis",
   "AUTHOR" => "Paul Fenwick <pjf\@cpan.org>",
   "BUILD_REQUIRES" => {
-    "Config::Tiny" => 0,
     "Test::Exception" => 0,
     "Test::More" => 0
   },
@@ -20,20 +19,25 @@ my %WriteMakefileArgs = (
     "ExtUtils::MakeMaker" => "6.30"
   },
   "DISTNAME" => "WebService-Idonethis",
-  "EXE_FILES" => [],
+  "EXE_FILES" => [
+    "bin/idonethis-memories"
+  ],
   "LICENSE" => "perl",
   "NAME" => "WebService::Idonethis",
   "PREREQ_PM" => {
     "Carp" => 0,
+    "Config::Tiny" => 0,
     "JSON::Any" => 0,
     "Moose" => 0,
     "MooseX::Method::Signatures" => 0,
+    "POSIX" => 0,
     "WWW::Mechanize" => 0,
     "autodie" => 0,
+    "constant" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

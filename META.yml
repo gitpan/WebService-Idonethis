@@ -3,7 +3,6 @@ abstract: 'WebScraping pseudo-API for iDoneThis'
 author:
   - 'Paul Fenwick <pjf@cpan.org>'
 build_requires:
-  Config::Tiny: 0
   Test::Exception: 0
   Test::More: 0
 configure_requires:
@@ -17,14 +16,17 @@ meta-spec:
 name: WebService-Idonethis
 requires:
   Carp: 0
+  Config::Tiny: 0
   JSON::Any: 0
   Moose: 0
   MooseX::Method::Signatures: 0
+  POSIX: 0
   WWW::Mechanize: 0
   autodie: 0
+  constant: 0
   perl: v5.10.0
   strict: 0
   warnings: 0
 resources:
-  repository: git://github.com/pfenwick/
-version: 0.01
+  repository: git://github.com/pfenwick/idonethis-perl
+version: 0.02
