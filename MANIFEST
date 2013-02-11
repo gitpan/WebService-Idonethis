@@ -4,6 +4,7 @@ META.json
 META.yml
 Makefile.PL
 README
+bin/idone
 bin/idonethis-memories
 dist.ini
 lib/WebService/Idonethis.pm

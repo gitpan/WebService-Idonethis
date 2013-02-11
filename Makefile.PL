@@ -20,6 +20,7 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "WebService-Idonethis",
   "EXE_FILES" => [
+    "bin/idone",
     "bin/idonethis-memories"
   ],
   "LICENSE" => "perl",
@@ -27,6 +28,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Carp" => 0,
     "Config::Tiny" => 0,
+    "HTTP::Request" => 0,
     "JSON::Any" => 0,
     "Moose" => 0,
     "MooseX::Method::Signatures" => 0,
@@ -37,7 +39,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
