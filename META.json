@@ -30,6 +30,7 @@
          "requires" : {
             "Carp" : "0",
             "Config::Tiny" : "0",
+            "Getopt::Std" : "0",
             "HTTP::Request" : "0",
             "JSON::Any" : "0",
             "Moose" : "0",
@@ -58,6 +59,6 @@
          "web" : "https://github.com/pfenwick/idonethis-perl"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
 

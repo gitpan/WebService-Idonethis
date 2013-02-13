@@ -28,6 +28,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Carp" => 0,
     "Config::Tiny" => 0,
+    "Getopt::Std" => 0,
     "HTTP::Request" => 0,
     "JSON::Any" => 0,
     "Moose" => 0,
@@ -39,7 +40,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.03",
+  "VERSION" => "0.04",
   "test" => {
     "TESTS" => "t/*.t"
   }

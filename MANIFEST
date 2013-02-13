@@ -4,6 +4,7 @@ META.json
 META.yml
 Makefile.PL
 README
+README.md
 bin/idone
 bin/idonethis-memories
 dist.ini
