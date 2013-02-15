@@ -28,19 +28,24 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Carp" => 0,
     "Config::Tiny" => 0,
+    "File::Spec" => 0,
+    "File::XDG" => 0,
     "Getopt::Std" => 0,
+    "HTTP::Cookies" => 0,
     "HTTP::Request" => 0,
     "JSON::Any" => 0,
+    "LWP::Protocol::https" => 0,
     "Moose" => 0,
     "MooseX::Method::Signatures" => 0,
     "POSIX" => 0,
+    "Try::Tiny" => 0,
     "WWW::Mechanize" => 0,
     "autodie" => 0,
     "constant" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.05",
   "test" => {
     "TESTS" => "t/*.t"
   }

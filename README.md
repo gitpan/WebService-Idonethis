@@ -1,10 +1,10 @@
-# WebService::IDonethis - Perl wrapper around idonethis.com
+# WebService::Idonethis - Perl wrapper around idonethis.com
 
 ## Using this module
 
 This implements a simple Perl front-end for the http://idonethis.com/ website.
 
-See L<http://privacygeek.blogspot.com.au/2013/02/reimplementing-idonethis-memory-service.html>
+See http://privacygeek.blogspot.com.au/2013/02/reimplementing-idonethis-memory-service.html
 for an article on why this is useful and how to use its features.
 
 This code can be found released on the CPAN as `WebService::Idonethis`.
