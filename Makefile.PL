@@ -35,8 +35,7 @@ my %WriteMakefileArgs = (
     "HTTP::Request" => 0,
     "JSON::Any" => 0,
     "LWP::Protocol::https" => 0,
-    "Moose" => 0,
-    "MooseX::Method::Signatures" => 0,
+    "Moo" => 0,
     "POSIX" => 0,
     "Try::Tiny" => 0,
     "WWW::Mechanize" => 0,
@@ -45,7 +44,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.05",
+  "VERSION" => "0.06",
   "test" => {
     "TESTS" => "t/*.t"
   }
