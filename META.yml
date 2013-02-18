@@ -26,6 +26,7 @@ requires:
   LWP::Protocol::https: 0
   Moo: 0
   POSIX: 0
+  Pod::Usage: 0
   Try::Tiny: 0
   WWW::Mechanize: 0
   autodie: 0
@@ -35,4 +36,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/pfenwick/idonethis-perl
-version: 0.08
+version: 0.09

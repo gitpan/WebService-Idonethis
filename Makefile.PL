@@ -37,6 +37,7 @@ my %WriteMakefileArgs = (
     "LWP::Protocol::https" => 0,
     "Moo" => 0,
     "POSIX" => 0,
+    "Pod::Usage" => 0,
     "Try::Tiny" => 0,
     "WWW::Mechanize" => 0,
     "autodie" => 0,
@@ -44,7 +45,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.08",
+  "VERSION" => "0.09",
   "test" => {
     "TESTS" => "t/*.t"
   }
