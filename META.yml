@@ -35,4 +35,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/pfenwick/idonethis-perl
-version: 0.07
+version: 0.08
