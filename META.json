@@ -4,7 +4,7 @@
       "Paul Fenwick <pjf@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -64,6 +64,6 @@
          "web" : "https://github.com/pfenwick/idonethis-perl"
       }
    },
-   "version" : "0.10"
+   "version" : "0.11"
 }
 
