@@ -31,6 +31,7 @@ my %WriteMakefileArgs = (
     "File::Spec" => 0,
     "File::XDG" => 0,
     "Getopt::Std" => 0,
+    "HTML::Entities" => 0,
     "HTTP::Cookies" => 0,
     "HTTP::Request" => 0,
     "JSON::Any" => 0,
@@ -45,7 +46,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.11",
+  "VERSION" => "0.12",
   "test" => {
     "TESTS" => "t/*.t"
   }

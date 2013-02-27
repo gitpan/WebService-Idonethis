@@ -20,6 +20,7 @@ requires:
   File::Spec: 0
   File::XDG: 0
   Getopt::Std: 0
+  HTML::Entities: 0
   HTTP::Cookies: 0
   HTTP::Request: 0
   JSON::Any: 0
@@ -36,4 +37,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/pfenwick/idonethis-perl
-version: 0.11
+version: 0.12
