@@ -34,7 +34,8 @@ requires:
   constant: 0
   perl: v5.10.0
   strict: 0
+  utf8::all: 0
   warnings: 0
 resources:
   repository: git://github.com/pfenwick/idonethis-perl
-version: 0.12
+version: 0.13

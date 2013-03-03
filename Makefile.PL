@@ -44,9 +44,10 @@ my %WriteMakefileArgs = (
     "autodie" => 0,
     "constant" => 0,
     "strict" => 0,
+    "utf8::all" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.12",
+  "VERSION" => "0.13",
   "test" => {
     "TESTS" => "t/*.t"
   }
