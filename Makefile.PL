@@ -28,6 +28,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Carp" => 0,
     "Config::Tiny" => 0,
+    "Date::Manip::Date" => 0,
     "File::Spec" => 0,
     "File::XDG" => 0,
     "Getopt::Std" => 0,
@@ -47,7 +48,7 @@ my %WriteMakefileArgs = (
     "utf8::all" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.14",
+  "VERSION" => "0.15",
   "test" => {
     "TESTS" => "t/*.t"
   }

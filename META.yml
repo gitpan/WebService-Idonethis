@@ -17,6 +17,7 @@ name: WebService-Idonethis
 requires:
   Carp: 0
   Config::Tiny: 0
+  Date::Manip::Date: 0
   File::Spec: 0
   File::XDG: 0
   Getopt::Std: 0
@@ -38,4 +39,4 @@ requires:
   warnings: 0
 resources:
   repository: git://github.com/pfenwick/idonethis-perl
-version: 0.14
+version: 0.15
