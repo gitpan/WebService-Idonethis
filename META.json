@@ -63,10 +63,10 @@
    "resources" : {
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/pfenwick/idonethis-perl",
-         "web" : "https://github.com/pfenwick/idonethis-perl"
+         "url" : "git://github.com/pjf/idonethis-perl",
+         "web" : "https://github.com/pjf/idonethis-perl"
       }
    },
-   "version" : "0.16"
+   "version" : "0.17"
 }
 

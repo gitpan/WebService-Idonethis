@@ -38,5 +38,5 @@ requires:
   utf8::all: 0
   warnings: 0
 resources:
-  repository: git://github.com/pfenwick/idonethis-perl
-version: 0.16
+  repository: git://github.com/pjf/idonethis-perl
+version: 0.17
