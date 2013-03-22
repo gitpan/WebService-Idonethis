@@ -1,5 +1,10 @@
 Revision history for WebService::Idonethis
 
+0.16      2013-03-22 14:16:56 Australia/Melbourne
+
+    * FEATURE:  `idone` supports -V to show version number.
+    * FEATURE:  `idone` now always adds trailing args to your done list.
+
 0.15      2013-03-12 19:26:09 Australia/Melbourne
 
     * FEATURE:  The '-d' switch now supports natural language date
